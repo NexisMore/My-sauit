@@ -17,10 +17,10 @@
 
         <div class="navigation div">
             <a href="../index.php">ГЛАВНАЯ</a>
-            <a href="products.html">НАПРАВЛЕНИЯ</a>
+            <a href="products.php">НАПРАВЛЕНИЯ</a>
             <a href="about.php">О НАС</a>
-            <a href="sale.html">АКЦИИ</a>
-            <a href="registration.html">ОСТАВИТЬ ЗАЯВКУ</a>
+            <a href="sale.php">АКЦИИ</a>
+            <a href="registration.php">ОСТАВИТЬ ЗАЯВКУ</a>
             <a href="../index.php">ЕЩЁ</a>
         </div>
     </header>
@@ -43,7 +43,7 @@
                 отдыхом!
             </p>
 
-            <div><a href="products.html" class="btn">ВЫБРАТЬ ТУР ДЛЯ СЕБЯ</a></div>
+            <div><a href="products.php" class="btn">ВЫБРАТЬ ТУР ДЛЯ СЕБЯ</a></div>
 
             <div class="reviews">
 

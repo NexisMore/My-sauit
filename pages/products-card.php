@@ -14,7 +14,7 @@
     <section class="producst-cards">
         <div class="producst-card">
             <div class="producst-card-icon">
-                <div><a href="../pages/products.html" class="producst-card-icon1">←</a></div>
+                <div><a href="products.php" class="producst-card-icon1">←</a></div>
                 <p class="producst-card-icon2">Назад</p>
             </div>
             <div class="producst-card-image"></div>
@@ -41,7 +41,7 @@
             <div class="producst-card-text-nz2">
                 <p>Цена: 49 900₽</p>
             </div>
-            <div><a href="../pages/registration.html" class="producst-card-button-nz">Оставить заявку</a></div>
+            <div><a href="registration.php" class="producst-card-button-nz">Оставить заявку</a></div>
         </div>
     </section>
 </body>

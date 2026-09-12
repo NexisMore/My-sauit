@@ -16,12 +16,12 @@
         <div class="logo1"> ВЭЙ </div>
 
         <div class="navigation div">
-            <a href="index.html">ГЛАВНАЯ</a>
-            <a href="pages/products.html">НАПРАВЛЕНИЯ</a>
-            <a href="pages/about.html">О НАС</a>
-            <a href="pages/sale.html">АКЦИИ</a>
-            <a href="pages/registration.html">ОСТАВИТЬ ЗАЯВКУ</a>
-            <a href="index.html">ЕЩЁ</a>
+            <a href="index.php">ГЛАВНАЯ</a>
+            <a href="pages/products.php">НАПРАВЛЕНИЯ</a>
+            <a href="pages/about.php">О НАС</a>
+            <a href="pages/sale.php">АКЦИИ</a>
+            <a href="pages/registration.php">ОСТАВИТЬ ЗАЯВКУ</a>
+            <a href="index.php">ЕЩЁ</a>
         </div>
     </header>
     <section class="hero">
@@ -37,7 +37,7 @@
             наслаждаться изысканным отдыхом!
         </p>
 
-        <a href="pages/products.html" class="hero-button">ВЫБРАТЬ ТУР ДЛЯ СЕБЯ</a>
+        <a href="pages/products.php" class="hero-button">ВЫБРАТЬ ТУР ДЛЯ СЕБЯ</a>
 
     </section>
     <section class="cards">

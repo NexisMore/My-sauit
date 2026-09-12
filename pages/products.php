@@ -17,10 +17,10 @@
 
         <div class="navigation div">
             <a href="../index.php">ГЛАВНАЯ</a>
-            <a href="products.html">НАПРАВЛЕНИЯ</a>
+            <a href="products.php">НАПРАВЛЕНИЯ</a>
             <a href="about.php">О НАС</a>
-            <a href="sale.html">АКЦИИ</a>
-            <a href="registration.html">ОСТАВИТЬ ЗАЯВКУ</a>
+            <a href="sale.php">АКЦИИ</a>
+            <a href="registration.php">ОСТАВИТЬ ЗАЯВКУ</a>
             <a href="../index.php">ЕЩЁ</a>
         </div>
     </header>
@@ -33,7 +33,7 @@
                 <p class="text-catalog">Тур в китай</p>
                 <div class="heart">♡</div>
             </div>
-            <div><a href="../pages/products-card.html" class="button-catalog">Подробнее</a></div>
+            <div><a href="products-card.php" class="button-catalog">Подробнее</a></div>
         </div>
         <!-- кАРТОЧКА 2 -->
         <div class="card-catalog">
@@ -42,7 +42,7 @@
                 <p class="text-catalog">Тур в китай</p>
                 <div class="heart">♡</div>
             </div>
-            <div><a href="../pages/products-card.html" class="button-catalog">Подробнее</a></div>
+            <div><a href="products-card.php" class="button-catalog">Подробнее</a></div>
         </div>
         <!-- кАРТОЧКА 3 -->
         <div class="card-catalog">
@@ -51,7 +51,7 @@
                 <p class="text-catalog">Тур в китай</p>
                 <div class="heart">♡</div>
             </div>
-            <div><a href="../pages/products-card.html" class="button-catalog">Подробнее</a></div>
+            <div><a href="products-card.php" class="button-catalog">Подробнее</a></div>
         </div>
 
         <!-- кАРТОЧКА 1 -->
@@ -61,7 +61,7 @@
                 <p class="text-catalog">Тур в китай</p>
                 <div class="heart">♡</div>
             </div>
-            <div><a href="../pages/products-card.html" class="button-catalog">Подробнее</a></div>
+            <div><a href="products-card.php" class="button-catalog">Подробнее</a></div>
         </div>
         <!-- кАРТОЧКА 2 -->
         <div class="card-catalog">
@@ -70,7 +70,7 @@
                 <p class="text-catalog">Тур в китай</p>
                 <div class="heart">♡</div>
             </div>
-            <div><a href="../pages/products-card.html" class="button-catalog">Подробнее</a></div>
+            <div><a href="products-card.php" class="button-catalog">Подробнее</a></div>
         </div>
         <!-- кАРТОЧКА 3 -->
         <div class="card-catalog">
@@ -79,7 +79,7 @@
                 <p class="text-catalog">Тур в китай</p>
                 <div class="heart">♡</div>
             </div>
-            <div><a href="../pages/products-card.html" class="button-catalog">Подробнее</a></div>
+            <div><a href="products-card.php" class="button-catalog">Подробнее</a></div>
         </div>
 
         <!-- кАРТОЧКА 1 -->
@@ -89,7 +89,7 @@
                 <p class="text-catalog">Тур в китай</p>
                 <div class="heart">♡</div>
             </div>
-            <div><a href="../pages/products-card.html" class="button-catalog">Подробнее</a></div>
+            <div><a href="products-card.php" class="button-catalog">Подробнее</a></div>
         </div>
         <!-- кАРТОЧКА 2 -->
         <div class="card-catalog">
@@ -98,7 +98,7 @@
                 <p class="text-catalog">Тур в китай</p>
                 <div class="heart">♡</div>
             </div>
-            <div><a href="../pages/products-card.html" class="button-catalog">Подробнее</a></div>
+            <div><a href="products-card.php" class="button-catalog">Подробнее</a></div>
         </div>
         <!-- кАРТОЧКА 3 -->
         <div class="card-catalog">
@@ -107,7 +107,7 @@
                 <p class="text-catalog">Тур в китай</p>
                 <div class="heart">♡</div>
             </div>
-            <div><a href="../pages/products-card.html" class="button-catalog">Подробнее</a></div>
+            <div><a href="products-card.php" class="button-catalog">Подробнее</a></div>
         </div>
     </div>
     <footer>
