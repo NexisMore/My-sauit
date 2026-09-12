@@ -16,12 +16,12 @@
         <div class="logo1"> ВЭЙ </div>
 
         <div class="navigation div">
-            <a href="../index.html">ГЛАВНАЯ</a>
+            <a href="../index.php">ГЛАВНАЯ</a>
             <a href="products.html">НАПРАВЛЕНИЯ</a>
-            <a href="about.html">О НАС</a>
+            <a href="about.php">О НАС</a>
             <a href="sale.html">АКЦИИ</a>
             <a href="registration.html">ОСТАВИТЬ ЗАЯВКУ</a>
-            <a href="../index.html">ЕЩЁ</a>
+            <a href="../index.php">ЕЩЁ</a>
         </div>
     </header>
     <h1 class="info-product">Туры на майские праздники</h1>
