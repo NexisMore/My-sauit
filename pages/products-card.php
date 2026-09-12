@@ -1,3 +1,11 @@
+<?php
+$hour = date('H');
+if ($hour >= 8 && $hour < 20) {
+    $theme = 'light';
+} else {
+    $theme = 'dark';
+}
+?>
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -10,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body class="<?= $theme ?>">
     <section class="producst-cards">
         <div class="producst-card">
             <div class="producst-card-icon">

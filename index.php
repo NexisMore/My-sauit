@@ -1,3 +1,11 @@
+<?php
+$hour = date('H');
+if ($hour >= 8 && $hour < 20) {
+    $theme = 'light';
+} else {
+    $theme = 'dark';
+}
+?>
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -10,12 +18,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
-    <header>
+<body class="<?= $theme ?>">
+    <header class="<?= $theme ?>">
         <div class="logo">ГАСТРО </div>
         <div class="logo1"> ВЭЙ </div>
 
-        <div class="navigation div">
+        <div class="navigation div <?= $theme ?>">
             <a href="index.php">ГЛАВНАЯ</a>
             <a href="pages/products.php">НАПРАВЛЕНИЯ</a>
             <a href="pages/about.php">О НАС</a>
@@ -42,20 +50,20 @@
     </section>
     <section class="cards">
         <div class="cards-grid">
-            <div class="card">
+            <div class="card <?= $theme ?>">
                 <div class="card-image"></div>
                 <p>Рестораны с высоким рейтингом</p>
             </div>
 
-            <div class="card">
+            <div class="card <?= $theme ?>">
                 <div class="card-image-30"></div>
                 <p>Закрытые винодельни</p>
             </div>
-            <div class="card">
+            <div class="card <?= $theme ?>">
                 <div class="card-image-japan"></div>
                 <p>Гастрономические мастер-классы</p>
             </div>
-            <div class="card">
+            <div class="card <?= $theme ?>">
                 <div class="card-image-low"></div>
                 <p>Дегустации деликатесов</p>
             </div>
@@ -63,19 +71,19 @@
     </section>
     <section class="cards2">
         <div class="cards-grid">
-            <div class="card">
+            <div class="card <?= $theme ?>">
                 <div class="card-image-30"></div>
                 <p>Закрытые винодельни</p>
             </div>
-            <div class="card">
+            <div class="card <?= $theme ?>">
                 <div class="card-image"></div>
                 <p>Рестораны с высоким рейтингом</p>
             </div>
-            <div class="card">
+            <div class="card <?= $theme ?>">
                 <div class="card-image-low"></div>
                 <p>Дегустации деликатесов</p>
             </div>
-            <div class="card">
+            <div class="card <?= $theme ?>">
                 <div class="card-image-japan"></div>
                 <p>Гастрономические мастер-классы</p>
             </div>
@@ -187,7 +195,7 @@
 
         </div>
     </section>
-    <footer>
+    <footer class="<?= $theme ?>">
 
         <div class="footer-top">
 

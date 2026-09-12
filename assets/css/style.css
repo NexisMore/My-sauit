@@ -2,23 +2,53 @@ body {
     font-family: Georgia, serif;
     margin: 0;
     padding: 0;
-    background-color: #FDE8D7;
     color: #000000;
     line-height: 1.7;
     letter-spacing: 0.3px;
     /* лёгкое расширение букв */
 }
+body.light {
+    background: #FDE8D7;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    letter-spacing: 0.3px;
+}
 
+body.dark {
+    background: #021728;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    letter-spacing: 0.3px;
+}
 /* главная */
 header {
     display: flex;
     align-items: center;
     padding: 10px 18px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+header.light {
     background: #FDE8D7;
+    display: flex;
+    align-items: center;
+    padding: 10px 18px;
     font-family: Georgia, serif;
     font-weight: bold;
 }
 
+header.dark {
+    background: #021728;
+    display: flex;
+    align-items: center;
+    padding: 10px 18px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
 .navigation {
     display: flex;
     gap: 18px;
@@ -54,7 +84,7 @@ h1 {
     margin: 0 !important;
 }
 
-.div a {
+.div.light a {
 
     border-radius: 30px;
     padding: 10px 24px;
@@ -63,7 +93,15 @@ h1 {
     color: #000000;
     text-decoration: none;
 }
+.div.dark a {
 
+    border-radius: 30px;
+    padding: 10px 24px;
+    font-size: 16px;
+    background: #021728;
+    color: #315781;
+    text-decoration: none;
+}
 .div a:hover {
     background: #2f2f2f;
     color: #fff;
@@ -146,6 +184,21 @@ h1 {
 .card {
     text-align: center;
     color: rgb(0, 0, 0);
+    font-family: Georgia, serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+.card.light {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.card.dark {
+    color: #315781;
+    text-align: center;
     font-family: Georgia, serif;
     font-size: 24px;
     line-height: 30px;
@@ -381,9 +434,15 @@ h1 {
     margin: 0;
 }
 
-footer {
+footer.light {
     width: 100%;
     background: #223E5E;
+    padding: 24px 0 10px;
+    margin-top: 80px;
+}
+footer.dark {
+    width: 100%;
+    background: #021728;
     padding: 24px 0 10px;
     margin-top: 80px;
 }

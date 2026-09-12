@@ -1,3 +1,11 @@
+<?php
+$hour = date('H');
+if ($hour >= 8 && $hour < 20) {
+    $theme = 'light';
+} else {
+    $theme = 'dark';
+}
+?>
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -11,12 +19,12 @@
 
 </head>
 
-<body>
-    <header>
+<body class="<?= $theme ?>">
+<header class="<?= $theme ?>">
         <div class="logo">ГАСТРО </div>
         <div class="logo1"> ВЭЙ </div>
 
-        <div class="navigation div">
+    <div class="navigation div <?= $theme ?>">
             <a href="../index.php">ГЛАВНАЯ</a>
             <a href="products.php">НАПРАВЛЕНИЯ</a>
             <a href="about.php">О НАС</a>
