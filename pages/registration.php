@@ -1,38 +1,8 @@
 <?php
-$hour = date('H');
-if ($hour >= 8 && $hour < 20) {
-    $theme = 'light';
-} else {
-    $theme = 'dark';
-}
+$title = 'О нас';
+$base = '../';
+require __DIR__ . '/../includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="ru">
-
-<head>
-    <meta charset="utf-8">
-    <title> Главная </title>
-    <meta name="description" content="Данный сайт предназначен для моей сдачи экзамена.">
-    <meta name="author" content=NexisMore>
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-</head>
-
-<body class="<?= $theme ?>">
-<header class="<?= $theme ?>">
-        <div class="logo">ГАСТРО </div>
-        <div class="logo1"> ВЭЙ </div>
-
-    <div class="navigation div <?= $theme ?>">
-            <a href="../index.php">ГЛАВНАЯ</a>
-            <a href="products.php">НАПРАВЛЕНИЯ</a>
-            <a href="about.php">О НАС</a>
-            <a href="sale.php">АКЦИИ</a>
-            <a href="registration.php">ОСТАВИТЬ ЗАЯВКУ</a>
-            <a href="../index.php">ЕЩЁ</a>
-        </div>
-    </header>
     <div class="registration-ga">ГастроВэй</div>
     <section class="registration-info">
         <form class="form">
